@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Cognito Forms
-Plugin URI: http://wordpress.org/extend/plugins/cognito
+Plugin URI: http://wordpress.org/plugins/cognito-forms/
 Description: Cognito Forms is a free online form builder that integrates seemlessly with WordPress. Create contact forms, registrations forms, surveys, and more!
 Version: 1.0.0
 Author: Cognito Apps

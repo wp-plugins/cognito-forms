@@ -15,32 +15,23 @@ Cognito Forms is a free online form builder. Quickly create responsive forms, se
 Creating a form is easy with our intuitive, visual form builder and drag-and-drop interface. Choose from our predefined templates or start from scratch.
 
 Features:
+-----------
 
-* Limitless: Create unlimited forms with an unlimited number of fields. 
-
-* Frameless Embedding: Your form blends seamlessly with your website. 
-
-* Color & Logo Customization: Match your font and colors to your website. 
-
-* Social Sharing: Post a link to your form on Twitter, Facebook and Google Plus. 
-
-* Export: Export your form submission data to Excel. 
-
-* File Uploads: Collect documents and images with your form submissions. 
-
-* Calculations: Sum up values on your form, smart default form values and more. 
-
-* Spam Prevention: Automatic spam bot detection. 
-
-* Email Notifications: Receive emails when your form is submitted. 
-
-* Repeating Sections: Capture multiple responses for a set of fields. 
-
-* Form Confirmations: Display a message or redirect to a page of your choice. 
-
-* Responsive: Your forms will display perfectly in your responsive website. 
+* **Limitless:** Create unlimited forms with an unlimited number of fields. 
+* **Frameless Embedding:** Your form blends seamlessly with your website. 
+* **Color & Logo Customization:** Match your font and colors to your website. 
+* **Social Sharing:** Post a link to your form on Twitter, Facebook and Google Plus. 
+* **Export:** Export your form submission data to Excel. 
+* **File Uploads:** Collect documents and images with your form submissions. 
+* **Calculations:** Sum up values on your form, smart default form values and more. 
+* **Spam Prevention:** Automatic spam bot detection. 
+* **Email Notifications:** Receive emails when your form is submitted. 
+* **Repeating Sections:** Capture multiple responses for a set of fields. 
+* **Form Confirmations:** Display a message or redirect to a page of your choice. 
+* **Responsive:** Your forms will display perfectly in your responsive website. 
 
 Field Types:
+-------------
 
 * Textbox
 * Choice (dropdown, radio button, or checkboxes)
