@@ -20,9 +20,9 @@ require_once dirname(__FILE__) . '/../api.php';
 
 $url = CognitoAPI::$formsBase;
 if ($_GET['page'] == 'CognitoCreateForm') {
-	$url = $url . 'build';
+	$url = $url . 'forms/new';
 } elseif ($_GET['page'] == "CognitoTemplates") {
-	$url = $url . 'templates';
+	$url = $url . 'forms/templates';
 }
 ?>
 
@@ -33,6 +33,13 @@ if ($_GET['page'] == 'CognitoCreateForm') {
 </style>
 
 <script language="javascript">
+	var element = document.getElementById('cognito-frame');
+	for (; element; element = element.previousSibling) {
+		if (element.nodeType === 1 && element.id !== 'cognito-frame') {
+			element.style.display = 'none';
+		}
+	}
+
 	var adminheight = document.getElementById('wpadminbar').clientHeight;
 	document.getElementById('cognito-frame').height = (document.body.clientHeight - adminheight) + "px";
 	window.addEventListener("message", messageListener);

@@ -4,7 +4,7 @@ Donate link: http://www.cognitoforms.com
 Tags: forms, cognito, cognito forms, create form, create forms, form builder, form creator, form generator, html form, online form, online form builder, online forms, registration, survey, surveys, web form, web forms, embed, anti-spam, email form, email, responsive
 Requires at least: 3.5
 Tested up to: 3.9.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,6 +57,13 @@ Field Types:
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 
+== Instructions ==
+1. After activating the plugin, a Cognito Forms section will appear on the admin bar. Click on this, and either create an account or login if you already have one.
+2. Once you have logged into Cognito Forms, create a new form. All forms that you create will be available to be inserted into the content editor when editing a page or post.
+3. When editing a page or post, click on the Cognito Forms icon, the orange cog, and select your form to be inserted.
+4. Update your page or post and your form should appear.
+
+
 == Frequently Asked Questions ==
 
 = Is Cognito Forms cloud-hosted? =
@@ -70,7 +77,13 @@ In order to create a form, you need to create a Cognito Forms account through th
 
 == Screenshots ==
 
+
+
 1. Build your form with our easy-to-use, drag-and-drop editor.
 2. Publish your form and adjust your form's style.
 3. View your entries.
+4. After installation, Cognito Forms will appear on the admin bar.
+5. After logging into (or registering with) Cognito Forms from your wordpress site, click on the Cognito Forms icon to insert a form into your page or post.
+6. Choose your Cognito Form.
+7. The appropriate short code will be added to your page or post.
 

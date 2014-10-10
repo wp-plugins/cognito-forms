@@ -13,7 +13,7 @@
             ed.addButton('cognito', {
                 title : 'Cognito Forms',
 				cmd : 'cognito_embed_window',
-				image : url + '/gear.ico'
+				image : url + '/cogicon.ico'
             });
         }
     });

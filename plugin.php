@@ -57,11 +57,17 @@ class Cognito_Plugin {
 	public function admin_init() {
 		if(!current_user_can('edit_posts') && !current_user_can('edit_pages')) return;		
 		
+		register_setting('cognito_plugin', 'cognito_api_key');
+		register_setting('cognito_plugin', 'cognito_admin_key');
+		register_setting('cognito_plugin', 'cognito_public_key');
+		register_setting('cognito_plugin', 'cognito_organization');
+		
 		// If the flag to delete options was passed-in, delete them
 		if (isset($_GET['cog_clear']) && $_GET['cog_clear'] == '1') {
 			delete_option('cognito_api_key');
 			delete_option('cognito_admin_key');
 			delete_option('cognito_public_key');
+			delete_option('cognito_organization');
 		}
 		
 		// Add tinyMCE plug-in
@@ -86,10 +92,12 @@ class Cognito_Plugin {
 			delete_option('cognito_api_key');
 			delete_option('cognito_admin_key');
 			delete_option('cognito_public_key');
+			delete_option('cognito_organization');
 		
 			update_option('cognito_api_key', $organization->apiKey);
 			update_option('cognito_admin_key', $organization->adminKey);
 			update_option('cognito_public_key', $organization->publicKey);
+			update_option('cognito_organization', $organization->code);
 		}
 		
 		die;
@@ -110,10 +118,12 @@ class Cognito_Plugin {
 	
 	// Initialize administration menu (left-bar)
 	public function admin_menu() {
-		add_menu_page('Cognito Forms', 'Cognito Forms', 'manage_options', 'Cognito', array($this, 'main_page'), '../wp-content/plugins/cognito/gear.ico');
+		add_menu_page('Cognito Forms', 'Cognito Forms', 'manage_options', 'Cognito', array($this, 'main_page'), '../wp-content/plugins/cognito-forms/cogicon.ico');
 		add_submenu_page('Cognito', 'Cognito Forms', 'View Forms', 'manage_options', 'Cognito', array($this, 'main_page'));
 		add_submenu_page('Cognito', 'Create Form', 'New Form', 'manage_options', 'CognitoCreateForm', array($this, 'main_page'));
 		add_submenu_page('Cognito', 'Templates', 'Templates', 'manage_options', 'CognitoTemplates', array($this, 'main_page'));
+		
+		add_options_page('Cognito Options', 'Cognito Forms', 'manage_options', 'CognitoOptions', array($this, 'options_page'));
     }
 
 	// Called when a 'Cognito' shortcode is encountered, renders embed script
@@ -137,6 +147,10 @@ class Cognito_Plugin {
 	// Entrypoint for Cognito Forms access
 	public function main_page() {		
 		include 'tmpl/main.php';
+	}
+	
+	public function options_page() {
+		include 'tmpl/options.php';
 	}
 	
 	// Set up tinyMCE buttons
