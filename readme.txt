@@ -3,30 +3,32 @@ Contributors: cognitoapps
 Donate link: http://www.cognitoforms.com
 Tags: forms, cognito, cognito forms, create form, create forms, form builder, form creator, form generator, html form, online form, online form builder, online forms, registration, survey, surveys, web form, web forms, embed, anti-spam, email form, email, responsive, payment
 Requires at least: 3.5
-Tested up to: 3.9.1
-Stable tag: 1.1.1
+Tested up to: 4.0.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Cognito Forms lets you quickly and easily build awesome forms, surveys and more without ever leaving WordPress. Create contact forms, collect event registrations, poll your readers or even sell stuff online. 
+Cognito Forms lets you quickly and easily build awesome forms, surveys and more without ever leaving WordPress.
 
 == Description ==
-Use this plugin to get all the powerful features of Cognito Forms for your WordPress site. Unlimited forms, unlimited fields, no monthly fees.
+Use the Cognito Forms plugin to create unlimited responsive forms for your WordPress site. Build contact forms, custom surveys, collect event registrations and even process credit card payments with no monthly fees.
 
 Features:
 -----------
 
+* Unlimited forms and fields
 * Powerful calculations
 * Conditional logic
 * Data exporting
 * Email notifications and payment receipts
 * Customized file upload support
 * Custom form confirmations
-* Easy payment collection with no monthly fees
+* Credit and debit card payment processing with no monthly fees
 * Custom rating scales
 * Repeating sections
 * "Smart" captchas
 * Custom form styling
+
 
 
 == Installation ==
