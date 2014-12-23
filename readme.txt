@@ -3,13 +3,8 @@ Contributors: cognitoapps
 Donate link: http://www.cognitoforms.com
 Tags: forms, cognito, cognito forms, create form, create forms, form builder, form creator, form generator, html form, online form, online form builder, online forms, registration, survey, surveys, web form, web forms, embed, anti-spam, email form, email, responsive, payment
 Requires at least: 3.5
-<<<<<<< .mine
 Tested up to: 4.1.0
 Stable tag: 1.1.3
-=======
-Tested up to: 4.0.1
-Stable tag: 1.1.2
->>>>>>> .r1052831
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
