@@ -18,7 +18,7 @@
 
 // Cognito API access
 class CognitoAPI {
-	public static $servicesBase = 'https://services.cognitoapps.com/';
+	public static $servicesBase = 'https://services.cognitoforms.com/';
 	public static $formsBase = 'https://www.cognitoforms.com/';
 	
 	// Fetches all forms for an organization
@@ -43,7 +43,6 @@ class CognitoAPI {
 		$base = self::$servicesBase;
 		return <<< EOF
 			<div class="cognito">
-				<script src="{$base}include/required"></script>
 				<script src="{$base}session/script/{$public_key}"></script>
 				<script>Cognito.load("forms", { id: "{$formId}" });</script>
 			</div>
@@ -55,7 +54,6 @@ EOF;
 		$base = self::$servicesBase;
 		return <<< EOF
 			<div class="cognito">
-				<script src="{$base}include/required"></script>
 				<script src="{$base}session/script/{$key}"></script>
 				<script>Cognito.load("{$module}");</script>
 			</div>
